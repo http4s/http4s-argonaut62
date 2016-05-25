@@ -1,7 +1,7 @@
 import scala.util.Properties.envOrNone
 
 organization := "org.http4s"
-version := s"0.13.1"
+version := s"0.13.2"
 name := "http4s-argonaut61"
 description := "argonaut-6.1 support for http4s"
 
@@ -11,7 +11,7 @@ crossScalaVersions <<= scalaVersion(Seq(_, "2.11.8"))
 libraryDependencies ++= Seq(
   "io.argonaut" %% "argonaut" % "6.1",
   "org.spire-math" %% "jawn-argonaut" % "0.8.4",
-  "org.http4s" %% "http4s-jawn" % "0.13.1",
+  "org.http4s" %% "http4s-jawn" % "0.13.2",
   "org.specs2" %% "specs2-core" % "3.7.2-scalaz-7.1.7"
 )
 
