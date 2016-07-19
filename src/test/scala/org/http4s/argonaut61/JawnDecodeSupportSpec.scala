@@ -1,5 +1,5 @@
 package org.http4s
-package argonaut61
+package argonaut
 
 import org.http4s.jawn._
 import org.specs2.mutable.Specification
