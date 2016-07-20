@@ -1,5 +1,5 @@
 package org.http4s
-package argonaut61
+package argonaut
 
 import java.nio.charset.StandardCharsets
 
