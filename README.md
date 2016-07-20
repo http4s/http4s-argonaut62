@@ -1,10 +1,9 @@
 ## Why
 
-http4s' [main repo](https://github.com/http4s/http4s) has upgraded to
-argonaut-6.2-M1, in order to add support for scalaz-7.2.  But much of
-the argonaut ecosystem depends on the binary incompatible
-argonaut-6.1.  If you've recently upgraded http4s and your argonaut
-code started throwing link errors, then this module is for you.
+http4s' [main repo](https://github.com/http4s/http4s) has reverted to
+argonaut-6.1 now that it's supported for scalaz-7.2.  But some of
+the argonaut ecosystem has moved on to the binary incompatible
+argonaut-6.2.  This is for the early adopters.
 
 ## Dependency
 
@@ -17,19 +16,5 @@ Replace...
 ... with:
 
 ```
-"org.http4s" %% "http4s-argonaut61" % http4sVersion
-```
-
-## Code change
-
-Replace...
-
-```scala
-import org.http4s.argonaut._
-```
-
-... with:
-
-```scala
-import org.http4s.argonaut61._
+"org.http4s" %% "http4s-argonaut62" % http4sVersion
 ```
