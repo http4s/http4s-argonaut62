@@ -1,3 +1,7 @@
+## Obsolete
+
+http4s uses argonaut-6.2 as of version 0.15.  This repo is obsolete.
+
 ## Why
 
 http4s' [main repo](https://github.com/http4s/http4s) has reverted to
